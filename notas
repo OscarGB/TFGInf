@@ -1,0 +1,20 @@
+Título: "Modelado y predicción de generación de residuos sólidos usando enfoque de aprendizaje automático"
+
+Explorar datasets:
+- OECD Statistics (socio-economic indicators): https://stats.oecd.org/
+- Municipal waste, Generation and Treatment:   https://stats.oecd.org/Index.aspx?DataSetCode=MUNW
+- ...
+
+Objetivos:
+- Crear un dataset de indicadores económicos (decidir cuáles se seleccionan) para países OECD lo largo de una serie temporar de años.
+- Crear un dataset para los mismos países y años de generación de basura, porcentaje de reciclaje y tipos de reciclaje
+- Preprocesar los datos, limpiarlos eliminando ruído y normalizando los valores de los indicadores en rangos
+- Relacionar datos socio-económicos con datos de basuras, a través distintos tipos de clasificadores (p.ej. redes neuronales, SVM, ...) + inferir consecuencias (p.ej. que indicadores influyen más en el reciclaje, ...)
+- "Clusterizar" (agrupar) países en función de características similares de reciclaje
+- Visualización de resultados (mapas)
+- Utilizar algunos años de la serie temporal para predecir (p.ej. los últimos) y evaluar los resultados
+- ...
+
+Herramientas:
+- Lenguaje Python + librerías
+- Crear un repositorio del proyecto: datos, código, resultados, ... (GitHub "privado")
