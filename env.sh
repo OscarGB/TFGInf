@@ -8,11 +8,9 @@ virtualenv -p python3 .venv
 SCRIPT=`realpath $0`
 SCRIPTPATH=`dirname $SCRIPT`
 
-echo "alias TFG='cd $SCRIPTPATH; source .venv/bin/activate;'" >> ~/.bashrc
-source ~/.bashrc
+echo "alias TFG='cd $SCRIPTPATH; source $SCRIPTPATH/.venv/bin/activate; jupyter-notebook'" >> ~/.bashrc
 
 source .venv/bin/activate
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
-jupyter-notebook
